@@ -1,0 +1,27 @@
+body {width: 100%; height: 100%; background: #bcbcbc}
+
+.contenedor1 {
+    overflow: hidden;
+ 
+  }
+  
+ .contenedor1 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+    transform-origin: center center;
+  }
+  
+  /* Zoom solo en ceviche al pasar el mouse */
+  .contenedor1:hover img {
+    transform: scale(1.2); /* Zoom de 120% */  }
+  
+  /* Opcional: también puedes hacer zoom en atún */
+  .contenedor1:hover img {
+    transform: scale(1.2); /* Zoom de 120% */
+  }
+  a {
+    text-decoration: none; /* Quita la línea */
+    color: inherit; /* Hereda el color del texto padre */
+    font-family: inherit; /* Mantiene la misma tipografía */
+  }
